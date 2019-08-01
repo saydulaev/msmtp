@@ -2,7 +2,7 @@
 #title          :msmtp.sh
 #description    :This script can be used to send a mail notification.
 #author         :Ruslan Saydulaev
-#email          :rsaydulaev@ppr.ru
+#email          :saydulaev.rb@gmail.com
 #date           :20190731
 #version        :-
 #usage          :./msmtp.sh "First subject theme" "body text message" "recipient_mailbox@gmail.com"
@@ -31,7 +31,7 @@ verbosity=false
 
 transport=`echo "$mail_to" | cut -d "@" -f2`
 
-# Set boilerplate variables for 'case' variants.
+# Set shortened variables for email domain's for 'case' variants.
 
 gmail="gmail.com"
 ya="yandex.ru"
