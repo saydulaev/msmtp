@@ -19,7 +19,7 @@ mail_to="$3"
 
 conf_path="/etc/msmtprc"
 
-# Change "true" to enable debug.
+# Change to <true> to enable debug.
 
 verbosity=false
 
